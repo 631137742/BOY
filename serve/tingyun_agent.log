@@ -849,3 +849,24 @@
 	
 2020-01-16 21:47:45.558 (pid:9988) INFO    <server.request-method> Response from /upload {status: success, code: 200}
 	
+2020-01-17 11:52:34.205 (pid:7652) INFO    <index> TingYun node version 1.7.1 Starting...
+2020-01-17 11:52:40.899 (pid:7652) INFO    <server.request-method> Post https://redirect.networkbench.com/getRedirectHost?version=1.4.0&licenseKey=b907b0346bb8b992feb37476f5fccee5
+	
+2020-01-17 11:52:40.898 (pid:7652) INFO    <agent> Starting login...
+2020-01-17 11:52:41.627 (pid:7652) INFO    <server.request-method> Response from /getRedirectHost {status: success, code: 200}
+	
+2020-01-17 11:52:41.904 (pid:7652) INFO    <server.request-method> Post https://dcs1.networkbench.com/initAgentApp?version=1.4.0&licenseKey=b907b0346bb8b992feb37476f5fccee5
+	
+2020-01-17 11:52:42.011 (pid:7652) INFO    <server.request-method> Response from /initAgentApp {status: success, code: 200}
+	
+2020-01-17 11:53:42.036 (pid:7652) INFO    <server.request-method> Post https://dcs1.networkbench.com/upload?version=1.4.0&licenseKey=b907b0346bb8b992feb37476f5fccee5&appSessionKey=131813039
+	
+2020-01-17 11:53:42.095 (pid:7652) INFO    <server.request-method> Response from /upload {status: success, code: 200}
+	
+2020-01-17 11:53:54.034 (pid:7652) ERROR   <metrics.tracecontainer> action name is not properly set.(action.id:005ngu1duoq5j240, action.url:/details)
+2020-01-17 11:53:54.059 (pid:7652) ERROR   <metrics.tracecontainer> action name is not properly set.(action.id:005ngu1duoq5j240, action.url:/details)
+2020-01-17 11:53:54.058 (pid:7652) ERROR   <metrics.tracecontainer> action name is not properly set.(action.id:005ngu1duoq5j240, action.url:/details)
+2020-01-17 11:54:42.025 (pid:7652) INFO    <server.request-method> Post https://dcs1.networkbench.com/upload?version=1.4.0&licenseKey=b907b0346bb8b992feb37476f5fccee5&appSessionKey=131813039
+	
+2020-01-17 11:54:42.119 (pid:7652) INFO    <server.request-method> Response from /upload {status: success, code: 200}
+	
