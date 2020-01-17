@@ -1,0 +1,253 @@
+body{
+    margin: 0;
+    padding:0;
+    background:#f5f5f5;
+}
+/*����ͷ�ͽŵĿ��*/
+.my_header iframe,.my_footer iframe{
+    width: 100%;
+}
+.my_footer iframe{
+    height: 20rem;
+}
+.my_header iframe{
+    height: 15rem;
+}
+@media screen and (max-width:991px){
+    .my-header iframe{
+        height:50rem;
+    }
+    .my_footer iframe{
+        height: 60rem;
+    }
+    .my-footer{margin-top:1.5rem}
+}
+/*С��*/
+@media screen and (max-width: 767px) {}
+/*����*/
+@media screen and (min-width: 768px) and (max-width:991px){
+    .cart_btn{
+        width:50%;
+        font-size:0.3rem;
+        padding-left:0;
+        padding-right:0;
+    }
+}
+/*����*/
+@media screen and (min-width: 992px){}
+/*porduct.html��Ʒ�б�*/
+.bg-menubar{
+    background: linear-gradient(to bottom,#f0f0f0,#e0e0e0);
+}
+/*��Ʒ����*/
+.base_color{
+    background: #f5f5f5;
+}
+/*��Ʒ���� ��ť*/
+.w-input{
+    width: 20%;
+}
+.w-input+span{
+    width: 20%;
+    text-align: center;
+    display: inline-block;
+}
+/*��Ʒ�б��ҳ*/
+.page-item.active .page-link{
+    color: #ffffff;
+    background: #000000;
+    border-color: #000000!important;
+}
+/*��Ʒ����logo*/
+.mygg-img{
+    width: 20px;
+    height: 20px;
+}
+/*���ﳵ*/
+.bg-menubar{
+    background: linear-gradient(to bottom,#f0f0f0,#e0e0e0);
+}
+.my_input-w{
+    width: 1.6rem;
+    padding:0;
+}
+.input-group-text{
+    width:40%;
+}
+.my_cart_btn{
+    width: 1.5rem;
+}
+.list-group>li{border-top:1px dashed #aaa;}
+/*porduct_details ��Ʒ����ҳ*/
+.btn-outline-dark{
+    background-color: transparent;
+    background-image: none;
+    border-color: #dddddd;
+    border-radius: 0;
+}
+.btn-outline-dark:hover{
+    /*background-color: transparent;*/
+    background-image: none;
+    border-color: #000000;
+}
+/*���ﳵ �ղ� ��������*/
+.my-btn-buy{
+    width: 130px;
+    height: 61px;
+    background-color: #ffffff;
+}
+.my-btn-buy1{
+    width: 180px;
+    height: 61px;
+    font-weight: 900;
+    color: #ffffff;
+    background-color: #3e3d3c;
+}
+.my-btn-buy1,.my-btn-buy:hover{
+    background-color: #4f4e4d;
+}
+/*��ҳlogo*/
+.logo{
+    width: 60%;
+}
+/*����������*/
+.my_small{
+    height: 1rem;
+    font-size: 0.8rem;
+}
+.my_gray{
+    color: #808080;
+}
+/*��������ť*/
+.my_nav-img{
+    width: 7rem;
+    height: 3rem;
+}
+*{margin: 0;padding: 0;}
+/*��ҳ�۵�������*/
+#d1>ul>li>a{
+    padding: 0;
+}
+/*�۵�������С��Ļʱ��ť*/
+.navbar-toggler-icon{
+    background-image: url("../img/section/item-san.png")!important;
+}
+/*��ҳ�۵������� ģ̬��*/
+.navbar-img>a{
+    width: 1.8rem;
+    height: 1.8rem;
+}
+/*��ҳ����ͼ*/
+.index-bg{
+    /*background: url("../img/8/mz_003.jpg")center top no-repeat #fff fixed;*/
+}
+img{
+    width: 100%;
+}
+/*�����ֲ�ͼ*/
+.carousel-indicators{left: -2rem;}
+.carousel-indicators li{
+    width: 0.7rem;height: 0.7rem;
+    border-radius: 50%;
+    background: #ffffff;
+}
+.carousel-indicators .active{
+    background: #000000;
+}
+.carousel-control-prev{width:3%;height:20%;top:40%;background: rgba(0,0,0,0.4);}
+.carousel-control-next{width:3%;height:20%;top:40%;background: rgba(0,0,0,0.4);}
+/*���м����*/
+.breadcrumb-item + .breadcrumb-item::before{
+    content: ">";
+    font-weight: bold;
+}
+/*������ͼƬ*/
+.my-img{
+    transition: 1.5s;
+}
+.my-img:hover{
+    transform: scale(1.1,1.1)
+}
+/*���� ý�����*/
+.takeaway{
+    width: 20rem;
+}
+/*ý�����*/
+.footer-media{
+    width: 4rem;
+}
+/*�ַ���Ч��������*/
+.footer-media-img{
+    width: 25rem;
+    height: 20rem;
+}
+/*ҳ��ײ�*/
+.footer{
+    color: #999999;
+    background: #000000;
+    margin-top: 70px;
+}
+/*��������*/
+.my-suspension{
+    width: 202px;
+    height: 262px;
+    position:fixed;
+    z-index: 1000;
+    top: 50%;
+    right: -13rem;
+    transition: 2s;
+}
+.my-suspension:hover{
+    right: 0;
+}
+/*������ťqqͼ��*/
+.my-suspension-img{
+    width: 51px;
+    height: 51px;
+    background: url("../img/footer/open_btn.png");
+    position: absolute;
+    right: 210px
+}
+.my-suspension-img:hover{
+    background: url("../img/footer/close_btn.png");
+}
+.list-group>li>a:hover{
+    color: red!important;
+}
+.my-suspension-img-min{
+    width:20px;
+    height: 26px;
+}
+/* 购买商品数量通用按钮样式 */
+#buttons>div>span{
+    width: 35px;
+    height: 35px;
+    line-height: 34px;
+}
+#buttons>div>button{
+    width: 35px;
+    height: 35px;
+    line-height: 24px;
+}
+/* 商品详情小图片通用大小 */
+.my-big+div>ul>li>img{
+    width: 101px;
+    height: 101px;
+    margin-right:45px; 
+}
+/*首页视频*/
+.container{
+    position: relative;
+}
+/*视频暂停按钮*/
+.ctr1{
+    position: absolute;
+    left: 50%;
+    top:50%;
+    margin-left:-50px;
+    margin-top:-50px;
+}
+.ctr1>img{
+    width: 100px;
+    height: 100px;
+}

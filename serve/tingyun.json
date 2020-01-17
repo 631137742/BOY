@@ -1,0 +1,16 @@
+{
+  "agent_log_level": "info",
+  "app_name": [
+    "node-vue"
+  ],
+  "licenseKey": "b907b0346bb8b992feb37476f5fccee5",
+  "host": "redirect.networkbench.com",
+  "port": 443,
+  "ssl": true,
+  "proxy": "",
+  "proxy_host": "",
+  "proxy_port": "",
+  "proxy_user": "",
+  "proxy_pass": "",
+  "audit_mode": false
+}

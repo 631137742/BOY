@@ -1,0 +1,32 @@
+{
+  "name": "wxt",
+  "version": "1.0.0",
+  "description": "exercise project for tedu students",
+  "main": "main.js",
+  "scripts": {
+    "test": "node  ./test.js",
+    "start": "node  ./main.js",
+    "qidong": "node  ./main.js",
+    "stop": "node  ./stop.js",
+    "rebuild": "node  ./bin/build.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lwh/boy.git"
+  },
+  "keywords": [
+    "tedu",
+    "exercise",
+    "node",
+    "webpack"
+  ],
+  "author": "LiWenhua",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lwh/boy/issues"
+  },
+  "homepage": "https://github.com/lwh/boy#readme",
+  "dependencies": {
+    "tingyun": "file:tingyun-agent-nodejs-1.7.1.tar.gz"
+  }
+}
