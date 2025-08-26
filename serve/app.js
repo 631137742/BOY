@@ -1,5 +1,5 @@
 //部署听云探针
-require('tingyun');
+// require('tingyun');
 
 //使用express构建web服务器 --11:25
 const express = require('express');

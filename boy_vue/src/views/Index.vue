@@ -19,9 +19,9 @@
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a href="#" class="nav-link">
+                    <div @click="goProducts" class="nav-link">
                         <img class="my_nav-img" src="img/header/012_cateImg_goods.png"/>
-                    </a>
+                    </div>
                 </li>
                 <li class="nav-item">
                     <a href="#" class="nav-link">
@@ -375,8 +375,12 @@
     </main>
 </template>
 <script>
-    export default{
-    
+    export default {
+        methods: {
+            goProducts() {
+                this.$router.push("products/1")
+            }
+        }
     }
 </script>
 

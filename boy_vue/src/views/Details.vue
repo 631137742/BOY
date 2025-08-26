@@ -109,6 +109,7 @@
 export default {
   data(){
     return {
+      API: window.g.BASE_API,
       product:{
         title:"",
         subtitle:"",
@@ -173,7 +174,7 @@ export default {
     },
     loadDetails(){
       this.axios.get(
-        "http://localhost:3000/details",{
+        this.API + "/details",{
           params:{
             lid:this.$route.params.lid
           }
